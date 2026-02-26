@@ -1,4 +1,3 @@
-name = input("Введите имя: ")
-age = input("Возраст: ")
+python_version = "3.10"
 
-print("Студент", name, sep=": ", end="!\n")
+print("Language: Python\n\tVersion:", python_version)

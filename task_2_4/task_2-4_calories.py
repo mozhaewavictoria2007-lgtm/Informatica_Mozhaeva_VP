@@ -1,0 +1,8 @@
+protein_str = input("Введите массу белков: ")
+lypids_str = input("Введите массу жиров: ")
+carbohyd_str = input("Введите массу углеводов: ")
+protein = int(protein_str)
+lypids = int(lypids_str)
+carbohyd = int(carbohyd_str)
+calories = (protein*4)+(lypids*9)+(carbohyd*4)
+print(f"Количество килокаллорий в вашем продукте: {calories} ккалл")

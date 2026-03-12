@@ -1,0 +1,30 @@
+ls / -lash
+total 4.1G
+4.0K drwxr-xr-x  23 root root 4.0K Nov 20 20:40 .
+4.0K drwxr-xr-x  23 root root 4.0K Nov 20 20:40 ..
+   0 lrwxrwxrwx   1 root root    7 Apr 22  2024 bin -> usr/bin
+4.0K drwxr-xr-x   2 root root 4.0K Feb 26  2024 bin.usr-is-merged
+4.0K drwxr-xr-x   4 root root 4.0K Dec  8 21:00 boot
+4.0K drwxr-xr-x   2 root root 4.0K Jan  1  1970 cdrom
+   0 drwxr-xr-x  22 root root 4.8K Mar 11  2026 dev
+ 12K drwxr-xr-x 139 root root  12K Dec 10 19:21 etc
+4.0K drwxr-xr-x   3 root root 4.0K Nov 20 20:51 home
+   0 lrwxrwxrwx   1 root root    7 Apr 22  2024 lib -> usr/lib
+   0 lrwxrwxrwx   1 root root    9 Apr 22  2024 lib64 -> usr/lib64
+4.0K drwxr-xr-x   2 root root 4.0K Apr  8  2024 lib.usr-is-merged
+ 16K drwx------   2 root root  16K Nov 20 20:34 lost+found
+4.0K drwxr-xr-x   4 root root 4.0K Nov 26 21:00 media
+4.0K drwxr-xr-x   2 root root 4.0K Aug  5  2025 mnt
+4.0K drwxr-xr-x   2 root root 4.0K Aug  5  2025 opt
+   0 dr-xr-xr-x 305 root root    0 Mar 11  2026 proc
+4.0K drwx------   5 root root 4.0K Nov 20 20:50 root
+   0 drwxr-xr-x  37 root root  900 Mar 11 19:34 run
+   0 lrwxrwxrwx   1 root root    8 Apr 22  2024 sbin -> usr/sbin
+4.0K drwxr-xr-x   2 root root 4.0K Mar 31  2024 sbin.usr-is-merged
+4.0K drwxr-xr-x  14 root root 4.0K Nov 20 21:15 snap
+4.0K drwxr-xr-x   2 root root 4.0K Aug  5  2025 srv
+4.1G -rw-------   1 root root 4.0G Nov 20 20:40 swap.img
+   0 dr-xr-xr-x  13 root root    0 Mar 11  2026 sys
+4.0K drwxrwxrwt  19 root root 4.0K Mar 11 19:39 tmp
+4.0K drwxr-xr-x  12 root root 4.0K Aug  5  2025 usr
+4.0K drwxr-xr-x  14 root root 4.0K Nov 20 20:43 var

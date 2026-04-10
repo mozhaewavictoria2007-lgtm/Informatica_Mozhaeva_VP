@@ -1,19 +1,19 @@
 print("Введите 4 числа по очереди:")
 
-z = float(input("Введите первое число:")) 
-o = float(input("Введите второе число:")) 
-n = float(input("Введите третье число:")) 
-a = float(input("Введите четвертое число:")) 
+a = float(input("Введите первое число:")) 
+b = float(input("Введите второе число:")) 
+c = float(input("Введите третье число:")) 
+d = float(input("Введите четвертое число:")) 
 
-if z < o:
-    min_value = z
+if a < b:
+    min_value = a
 else: 
-    min_value = o
+    min_value = b
 
-if n < a :
-    min_value1 = n
+if c < d :
+    min_value1 = c
 else: 
-    min_value1 = a
+    min_value1 = d
 
 if min_value < min_value1:
     print("Минимальное из четырех чисел:", min_value)

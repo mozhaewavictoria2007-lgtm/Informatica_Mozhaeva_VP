@@ -1,8 +1,8 @@
-Zarray = input("Введите числа через запятую:").split(', ')
+array = input("Введите числа через запятую:").split(', ')
 sum = 0
 
-for i in range(len(Zarray)):
+for i in range(len(array)):
     if i % 2 != 0:
-        sum += int(Zarray[i])
+        sum += int(array[i])
 
 print("Сумма элементов с нечетными индексами:", sum)

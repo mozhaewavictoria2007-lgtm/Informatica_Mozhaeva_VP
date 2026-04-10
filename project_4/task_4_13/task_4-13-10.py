@@ -1,4 +1,4 @@
-array = input("Введите числа через запятую:").split(', ')
+array = input("Введите числа через запятую:").split(',')
 sum = 0
 
 for i in range(len(array)):

@@ -1,5 +1,5 @@
 array = input("Введите числа через запятую:").split(', ')
-summa = 0  
+sum = 0  
 
 for i in range(len(array)):
     if i % 2 == 0:  

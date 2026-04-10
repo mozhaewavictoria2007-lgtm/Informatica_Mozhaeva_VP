@@ -1,8 +1,8 @@
-OVarray = input("Введите числа через запятую:").split(', ')
+array = input("Введите числа через запятую:").split(', ')
 summa = 0  
 
-for i in range(len(OVarray)):
+for i in range(len(array)):
     if i % 2 == 0:  
-        summa += int(OVarray[i])
+        sum += int(array[i])
 
-print("Сумма элементов с четными индексами:", summa)
+print("Сумма элементов с четными индексами:", sum)
